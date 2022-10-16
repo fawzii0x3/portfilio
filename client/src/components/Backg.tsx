@@ -8,7 +8,7 @@ const Backg = () => {
       <img
         src="/images/Pill-Blue-Glossy.png"
         alt="pill"
-        className="absolute left-[-108px] top-[65%]  "
+        className="absolute left-[-108px] top-[65%]  md:block hidden"
       />
       <img
         src="/images/SuperToroid-Yellow-Glossy.png"

@@ -2,7 +2,7 @@ import React from "react";
 
 const Card:React.FC<any> = ({children}) => {
   return (
-    <div className="w-[100%] h-[100vh] md:h-[650px] backdrop-blur-lg cardGradiant md:rounded-3xl pt-[24px] px-[96px] relative lg:mx-20">
+    <div className="w-[100%] h-[100vh] md:h-[650px] backdrop-blur-lg cardGradiant md:rounded-3xl pt-[24px] sm:px-[96px] px-4 relative lg:mx-20">
       <img
         src="/images/Sphere-White-Matte.png"
         alt="bouncing ball"

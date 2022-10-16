@@ -12,11 +12,13 @@ const Home = () => {
             <span>A full stack dev</span>
           </p>
           <p className="font-normal text-base">
-            Passionate in Frontend Dev and UI/UX Design. Likes to build
-            fast-performance and well-designed website interfaces using the
-            latest technologies.
+            Passionate in web development. Likes to build fast-performance and
+            well-designed website interfaces using the latest technologies.
           </p>
-          <Link to={"/hire-me"} className="bg-[#F2672E] py-3 px-6 rounded flex items-center gap-2 font-normal text-base">
+          <Link
+            to={"/hire-me"}
+            className="bg-[#F2672E] py-3 px-6 rounded flex items-center gap-2 font-normal text-base"
+          >
             <FontAwesomeIcon icon={faBriefcase} />
             Hire me
           </Link>

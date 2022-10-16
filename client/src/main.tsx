@@ -29,6 +29,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:'/adminprv',
+    element: <h1>hello admin</h1>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
